@@ -1,0 +1,22 @@
+git config --global uxmreact@gmail.com
+username:uxmreact
+Password:uxm$123$
+
+git clone https://github.com/UXM-React/reactapp.git
+
+git add <filename>
+
+git add *
+
+git commit -m "Commit message"
+
+git commit -a
+
+git pull
+
+git push origin master
+
+
+note :I have given basic comments only.Based on our requirement, We will keep update this document.If you face any issue while accing this repository.Please let us know.
+
+
