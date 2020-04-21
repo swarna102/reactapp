@@ -229,7 +229,9 @@ function Dashboard() {
 
 function tables() {
   return (
+
     <Tables />
+    
   );
 }
 function Staticnav() {
