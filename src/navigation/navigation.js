@@ -8,6 +8,9 @@ import {
 import { Collapse, CardBody, Card } from 'reactstrap';
 import Student from '../student/student';
 import Tables from '../tables/tables';
+import MultiUpload from '../Components/MultiUpload';
+import FileUpload from '../Components/FileUpload';
+import DataTable from '../Components/DataTable';
 
 
 export default class leftnav extends Component {
@@ -133,7 +136,30 @@ export default class leftnav extends Component {
                                 <i className="fa fa-table"></i>
                                 Tables</a
                   >
+				  <a className="nav-link" href="/FileUpload"
+                                >
+                                
+                                 FileUpload</a
+                  >
+				  
+				  <a className="nav-link" href="/MultiUpload"
+                                >
+                               
+                                 MultiUpload</a
+                  >
+				  <a className="nav-link" href="/DataTable"
+                                >
+                               
+                                 DataTable</a
+                  >
+				  
+				  
                 </div>
+				
+				
+				
+				
+				
               </div>
               <div className="sb-sidenav-footer">
                 <div className="small">Logged in as:</div>
@@ -172,6 +198,24 @@ export default class leftnav extends Component {
               <Route path="/tables">
                 <Tables />
               </Route>
+			   <Route path="/FileUpload">
+                <FileUpload />
+              </Route>
+          
+			  
+			   <Route path="/MultiUpload">
+                <MultiUpload />
+              </Route>
+			  
+			  
+		   <Route path="/DataTable">
+                <DataTable />
+              </Route>
+          
+          
+			  
+			  
+			  
             </Switch>
           </div>
         </div>
