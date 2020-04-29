@@ -6,6 +6,7 @@ import {
     Link
   } from 'react-router-dom';
   import { Collapse, CardBody, Card } from 'reactstrap';
+  import Login from '../login/login'
 
   
 export default class leftnav extends Component{
@@ -120,9 +121,7 @@ export default class leftnav extends Component{
                         </CardBody>
                     </Card>
                 </Collapse>
-
-
-                           <div className="sb-sidenav-menu-heading">Addons</div>
+                <div className="sb-sidenav-menu-heading">Addons</div>
                             <a className="nav-link" href="charts.html"
                                 ><i className="fa fa-area-chart"></i>
                                   Charts</a>
@@ -205,13 +204,7 @@ function Lightsidenav() {
   );
 }
 
-function Login() {
-  return (
-    <div>
-      <h2>login</h2>
-    </div>
-  );
-}
+
 function Register() {
   return (
     <div>

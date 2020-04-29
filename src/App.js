@@ -2,6 +2,7 @@ import React,{ Component } from 'react';
 import './App.css';
 import Radium from 'radium';
 import Navigation from './navigation/navigation';
+import Login from './login/login'
 import Alert from 'react-bootstrap/Alert';
 import {DropdownButton,Dropdown} from 'react-bootstrap';
 
@@ -31,7 +32,8 @@ render(){
         <i className="fa fa-user fa-fw"></i>   
         <DropdownButton variant="secondary" id="dropdown-Secondary-button" title="">
           <Dropdown.Item href="#">Settings</Dropdown.Item>
-          <Dropdown.Item href="#">Activity</Dropdown.Item>
+          <Dropdown.Item href="#" >
+          Activity</Dropdown.Item>
           <hr></hr>
           <Dropdown.Item href="#">Logout</Dropdown.Item>
         </DropdownButton>
